@@ -5,7 +5,7 @@ MAINTAINER saymagic "saymagic@163.com"
 # 安装JDK与nginx
 
 RUN apt-get purge openjdk*
-RUN add-apt-repository ppa:webupd8team/java
+#RUN add-apt-repository ppa:webupd8team/java
 RUN apt-get update    
 RUN apt-get install oracle-java7-installer
 RUN apt-get install oracle-java7-set-default
